@@ -14,7 +14,7 @@
     align-items: center;
     /* max-height: 750px; FIXME: */
     margin: auto;
-    padding: 90px 40px;
+    padding: 125px 40px;
     background: linear-gradient(80deg, #9f3b83, #6a35a4);
     border-radius: 25px;
 }
@@ -50,4 +50,26 @@
 
 .nav-list a:active {
     color: rgb(4, 0, 255);
+}
+
+
+/* MAIN */
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.left-aside {
+    color: #fff;
+}
+
+.left-aside h1 {
+    font-size: 60px;
+    color: #89c8ff;
+}
+
+.left-aside h3 {
+    font-size: 30px;
+    color: #89ffe9;
 }
