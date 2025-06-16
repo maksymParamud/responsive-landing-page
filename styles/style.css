@@ -73,3 +73,20 @@
     font-size: 30px;
     color: #89ffe9;
 }
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 75px;
+}
+
+.nav-list-footer {
+    display: flex;
+    list-style-type: none;
+    margin-left: -100px;
+}
+
+.nav-list-footer li {
+    margin-left: 50px;
+}
