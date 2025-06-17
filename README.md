@@ -25,7 +25,7 @@ This is a responsive landing page built with HTML, CSS, and JavaScript. The proj
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/maksymParamud/responsive-landing-page.git
+   git clone https://maksymparamud.github.io/responsive-landing-page/
 
 2. Open index.html in your browser.
 
