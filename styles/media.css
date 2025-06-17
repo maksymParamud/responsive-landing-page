@@ -2,12 +2,37 @@
 
     /* HEADER */
 
+    header {
+        border: none;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
     .nav-list {
         display: none;
+        list-style-type: none;
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        margin-bottom: 10px;
+    }
+
+    .nav-list.nav-list-active {
+        display: flex;
     }
 
     #burger-menu {
         display: block;
+        height: 50px;
+        max-height: 50px;
+        max-width: 50px;
+        margin-top: 10px;
     }
 
     /* MAIN */
