@@ -25,6 +25,18 @@
 
     .nav-list.nav-list-active {
         display: flex;
+        animation: slideDown 0.2s ease-out;
+    }
+
+    @keyframes slideDown {
+        from {
+            transform: translateY(-20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
     }
 
     #burger-menu {
@@ -38,6 +50,7 @@
     /* MAIN */
 
     main {
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
