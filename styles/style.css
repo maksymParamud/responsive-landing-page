@@ -53,6 +53,10 @@ header {
     color: rgb(4, 0, 255);
 }
 
+#burger-menu {
+    display: none;
+}
+
 
 /* MAIN */
 
