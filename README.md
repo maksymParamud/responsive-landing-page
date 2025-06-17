@@ -32,8 +32,8 @@ This is a responsive landing page built with HTML, CSS, and JavaScript. The proj
 
 ## Project Structure
 
-/images       — Icons and images; 
-/styles       — CSS files (main styles and media queries); 
+images       — Icons and images; 
+styles       — CSS files (main styles and media queries); 
 index.html    — Main HTML page; 
 script.js     — JavaScript for burger menu functionality; 
 
