@@ -63,6 +63,7 @@ header {
 main {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .left-aside {
@@ -79,6 +80,13 @@ main {
     font-size: 30px;
     margin-bottom: 50px;
     color: #89ffe9;
+}
+
+.left-aside p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
 }
 
 
@@ -99,4 +107,8 @@ footer {
 
 .nav-list-footer li {
     margin-left: 50px;
+}
+
+.nav-list-footer li:first-child {
+    margin-left: 0;
 }
