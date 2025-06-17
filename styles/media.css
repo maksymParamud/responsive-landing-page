@@ -1,0 +1,12 @@
+@media (max-width: 1150px) {
+
+    /* HEADER */
+
+    .nav-list {
+        display: none;
+    }
+
+    #burger-menu {
+        display: block;
+    }
+}
